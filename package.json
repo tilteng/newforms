@@ -43,11 +43,11 @@
     "gulp-util": "^3.0.2",
     "jshint-stylish": "^1.0.0",
     "qqunit": "^0.6.0",
-    "react": ">=0.13.0",
+    "react": ">=15.2.1",
     "vinyl-source-stream": "^1.0.0"
   },
   "peerDependencies": {
-    "react": ">=0.13.0"
+    "react": ">=15.2.1"
   },
   "scripts": {
     "dist": "gulp browserify-js --production --release && gulp browserify-js --development --release",
